@@ -1,5 +1,5 @@
 # Android Sensor Demo
-![](screenshot.png)
+![](thumb.png)
 * Accelerometer
 * Gyroscope
 * Light
