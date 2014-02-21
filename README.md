@@ -15,3 +15,8 @@ implement other sensors
 * Step counter
 * Step detector
 * etc
+
+### References
+* [Android doc] on sensors
+
+[Android doc]: http://developer.android.com/reference/android/hardware/SensorEvent.html
