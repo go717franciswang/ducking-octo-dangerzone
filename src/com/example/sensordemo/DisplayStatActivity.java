@@ -57,6 +57,11 @@ public class DisplayStatActivity extends Activity implements
 		mSensorManager.registerListener(this, mLight,
 				SensorManager.SENSOR_DELAY_NORMAL);
 	}
+	
+	protected void onPause() {
+		super.onPause();
+        mSensorManager.unregisterListener(this);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
